@@ -75,7 +75,3 @@ core challenges in real robotics engineering.
 pip install numpy matplotlib
 ```
 Open `notebooks/01_pid_basics.ipynb` and run all cells in order.
-
-## 👤 Author
-
-Ioannis Ntontis | Physicist
