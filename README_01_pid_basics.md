@@ -11,7 +11,7 @@ to level using rotor thrust adjustments. The PID controller
 continuously calculates how much correction to apply based on 
 three terms:
 
-**output = Kp·e(t) + Ki·∫e(t)dt + Kd·de(t)/dt**
+$$\text{output} = K_p \cdot e(t) + K_i \cdot \int e(t) \, dt + K_d \cdot \frac{de(t)}{dt}$$
 
 Where:
 - e(t) = error = setpoint − current angle
