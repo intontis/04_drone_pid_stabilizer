@@ -15,9 +15,9 @@ $$\text{output} = K_p \cdot e(t) + K_i \cdot \int e(t) \, dt + K_d \cdot \frac{d
 
 Where:
 - **Error Definition:** $$e(t) = \text{setpoint} - \text{current angle}$$
-- Kp   = proportional gain → reacts to current error
-- Ki   = integral gain     → corrects accumulated drift
-- Kd   = derivative gain   → dampens rate of change
+- K_p   = proportional gain → reacts to current error
+- K_i   = integral gain     → corrects accumulated drift
+- K_d   = derivative gain   → dampens rate of change
 
 Mathematically identical to a **damped harmonic oscillator** in 
 classical mechanics — Kd plays the role of the damping coefficient.
