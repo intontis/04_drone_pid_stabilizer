@@ -14,7 +14,7 @@ three terms:
 $$\text{output} = K_p \cdot e(t) + K_i \cdot \int e(t) \, dt + K_d \cdot \frac{de(t)}{dt}$$
 
 Where:
-- e(t) = error = setpoint − current angle
+- **Error Definition:** $$e(t) = \text{setpoint} - \text{current angle}$$
 - Kp   = proportional gain → reacts to current error
 - Ki   = integral gain     → corrects accumulated drift
 - Kd   = derivative gain   → dampens rate of change
