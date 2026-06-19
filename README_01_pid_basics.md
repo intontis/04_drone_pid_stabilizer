@@ -40,7 +40,7 @@ classical mechanics — Kd plays the role of the damping coefficient.
 ## 🧠 Physics Concepts Demonstrated
 
 - **PID control** — three-term feedback controller
-- **Damped harmonic oscillator** — Kd as damping coefficient
+- **Damped harmonic oscillator** — $K_d$ as damping coefficient
 - **Step response** — system response to a sudden disturbance
 - **Steady state error** — residual offset corrected by Ki term
 - **Settling time** — time to reach and stay within tolerance
@@ -48,9 +48,9 @@ classical mechanics — Kd plays the role of the damping coefficient.
 ## 🔑 Key Insight
 
 The three gains trade off against each other:
-- High Kp → fast response but oscillates
-- High Ki → eliminates drift but overshoots
-- High Kd → smooth damping but slow response
+- High $K_p$ → fast response but oscillates
+- High $K_i$ → eliminates drift but overshoots
+- High $K_d$ → smooth damping but slow response
 
 Finding the right balance — called **PID tuning** — is one of the 
 core challenges in real robotics engineering.
