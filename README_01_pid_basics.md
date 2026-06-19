@@ -48,9 +48,9 @@ classical mechanics — Kd plays the role of the damping coefficient.
 ## 🔑 Key Insight
 
 The three gains trade off against each other:
-- High $K_p$ → fast response but oscillates
-- High $K_i$ → eliminates drift but overshoots
-- High $K_d$ → smooth damping but slow response
+- High $\boldsymbol{K_p}$ → fast response but oscillates
+- High $\boldsymbol{K_i}$ → eliminates drift but overshoots
+- High $\boldsymbol{K_d}$ → smooth damping but slow response
 
 Finding the right balance — called **PID tuning** — is one of the 
 core challenges in real robotics engineering.
