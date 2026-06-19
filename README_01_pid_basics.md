@@ -31,9 +31,9 @@ classical mechanics — Kd plays the role of the damping coefficient.
 | Parameter | Value |
 |---|---|
 | Initial tilt | 30° |
-| Kp | 2.0 |
-| Ki | 0.01 |
-| Kd | 3.0 |
+| $K_p$ | 2.0 |
+| $K_i$ | 0.01 |
+| $K_d$ | 3.0 |
 | Settled within ±1° at | ~13 seconds |
 | Overshoot | None |
 
